@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(61, 61, 61);
+  }
+  
+  .content{
+      height: fit-content;
+      background-color: rgb(61, 61, 61);
+      color: #f1e724;
+  }
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    color: #f1e724;
+}
+
+.inner-content-container { 
+    padding: 50px;
+    padding-bottom: 230px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: black;
+}
+
+.inner-content-container img {
+    width: 500px;
+}
+
+.text {
+    float: left;
+}
+
+@media only screen and (max-width: 800px) {
+    .inner-content-container img {
+        width: 350px;
+        text-align: center;
+    }
+    .inner-content-container {
+        padding-bottom: 100px; 
+    }
+  }

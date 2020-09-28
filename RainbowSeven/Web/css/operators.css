@@ -1,0 +1,187 @@
+.content{
+    height: fit-content;
+    background-color: rgb(61, 61, 61);
+    color: black;
+    font-family: Verdana;
+}
+.operatorsTitle{
+    padding-left: 40%;
+    font-size: 60px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    color: #f1e724;
+}
+  
+.operatorTitle1{
+    font-size: 40px; 
+}
+.operatorRoleLogo{
+    float: left;
+    margin-right: 10px;
+}
+.operatorRole{ 
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 10px; 
+} 
+.operatorDesc{
+    color: rgb(31, 30, 30);
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.operatorTitle2{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px; 
+}
+
+
+.senjataWrapper{ 
+    width: 80%;  
+    text-align: center;
+    margin-left: 10%;
+}
+.operatorSenjata1{ 
+    width: 45%;
+    border: 2px solid #c4bb1c;
+    margin-top: 10px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: ease-in-out .4s;
+}  
+.operatorSenjata2{ 
+    width: 45%;
+    border: 2px solid #c4bb1c; 
+    margin-top: -126px;  
+    transition: ease-in-out .4s;
+    float: right;
+}  
+.operatorSenjata1:hover{
+    border: black 2px solid;
+}
+.operatorSenjata2:hover{
+    border: black 2px solid;
+}
+
+.operator1Wrapper{  
+    width: 50%; 
+    margin-left: 5%;
+    margin-top: 50px;
+    background-color: #c4bb1c;
+    padding: 30px 50px; 
+    border-radius: 10px;
+}
+.operator1Photo{
+    margin-top: -20px;
+    float: right; 
+    margin-right: 100px;
+    transition: transform .3s; 
+}
+.operator1Photo:hover{
+    transform: scale(1.2);
+}
+
+.operator2Wrapper{ 
+    float: right;
+    width: 50%; 
+    margin-right: 8%; 
+    margin-top: -450px;
+    background-color: #c4bb1c;
+    padding: 30px 50px; 
+    border-radius: 10px; 
+}
+.operator2Photo{ 
+    width: 410px;
+    height: 510px; 
+    margin-left: 5%;
+    margin-top: 80px;
+    transition: transform .3s;
+}
+.operator2Photo:hover{
+    transform: scale(1.2);
+}
+
+.operator3Wrapper{ 
+    width: 50%; 
+    margin-left: 5%;
+    margin-top: 90px;
+    margin-bottom: 70px;
+    background-color: #c4bb1c;
+    padding: 30px 50px; 
+    border-radius: 10px;
+}
+.operator3Photo{ 
+    float: right; 
+    margin-right: 90px;
+    transition: transform .3s; 
+}
+.operator3Photo:hover{
+    transform: scale(1.2);
+}
+
+
+@media (max-width: 800px) {
+    .content{
+        height: fit-content;  
+    }
+    .operatorsTitle{
+        padding-top: 30px;
+        padding-left: 30%;
+        color: #f1e724;
+    }
+
+
+    .operator1Wrapper{ 
+        margin-top: 500px;
+        margin-left: 5%;
+        width: 75%; 
+        padding-bottom: 20px;
+    }
+    .operator1Photo{
+        margin-top: -20px;
+        margin-right: 22%; 
+    }
+    .operator1Photo:hover{
+        transform: scale(1); 
+        background-image: url("../asset/operator1Hover.png"); 
+        background-size: contain;
+    }
+ 
+    .operator2Wrapper{ 
+        margin-top: 0px;
+        margin-left: 5%;
+        float: left;
+        width: 75%; 
+        padding-bottom: 20px;
+    }
+    .operator2Photo{ 
+        margin-top: 20px; 
+        margin-left: 23%; 
+    }
+    .operator2Photo:hover{
+        transform: scale(1); 
+        background-image: url("../asset/operator2Hover.png"); 
+        background-size: contain;
+        
+    }
+
+    .operator3Wrapper{ 
+        margin-top: 913px;
+        margin-left: 5%;
+        margin-bottom: 10px;
+        width: 75%; 
+        padding-bottom: 20px;
+    }
+    .operator3Photo{ 
+        margin-top: 20px;
+        margin-right: 22%;
+    }
+    .operator3Photo:hover{
+        transform: scale(1); 
+        background-image: url("../asset/operator3Hover.png");
+        background-size: contain;
+    }
+}

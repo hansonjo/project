@@ -1,0 +1,321 @@
+.content{
+    height: 100%;
+    background-color: rgb(61, 61, 61);
+    color: #f1e724;
+}
+
+.title{
+    width: 225px;
+    font-size: 25px;
+    padding-top: 50px;
+    margin-left: 600px;
+}
+
+.titleImg{
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+.subtitle{
+    margin-left:275px;
+}
+
+.platformTitle{
+    width: 225px;
+    font-size: 25px;
+    padding-top: 50px;
+    margin-left: 590px;
+}
+
+.platformBtn{
+    margin-left: 480px;
+    margin-top: 20px;
+}
+
+.pcBtn{
+    background-color: rgb(61, 61, 61);
+    border: solid 1px white;
+    color: #f1e724;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.playstationBtn{
+    background-color: rgb(61, 61, 61);
+    border: solid 1px white;
+    color: #f1e724;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.xboxBtn{
+    background-color: rgb(61, 61, 61);
+    border: solid 1px white;
+    color: #f1e724;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.hover:hover{
+    color: white;  
+}
+
+.editionTitle{
+    width: 225px;
+    font-size: 25px;
+    padding-top: 50px;
+    margin-left: 625px;
+}
+
+.poContent{
+    margin-left: 200px;
+    display:flex;
+}
+
+.poImg{
+    flex:1;
+    width:750px;
+    height:450px;
+}
+
+.imgPo{
+    width:600px;
+    height:450px;
+}
+
+.poForm{
+    flex:2;
+    margin-left: 25px;
+    font-size: 25px;
+    color: white;   
+}
+
+.form{
+    color: white;
+    width: 350px;
+    border: 0px;
+    font-size: 20px;
+    background-color: inherit;
+    border: white 2px solid;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.choosenFormat{
+    width: 375px;
+    height: 50px; 
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border: white 2px solid;
+    background-color: inherit;
+}
+
+.choosenFormatDetail{
+    background-color: rgb(61, 61, 61);
+}
+ 
+
+.formatList option{
+    color: black;
+    width: 350px;
+    border: 0px;
+    font-size: 20px;
+    background-color: inherit;
+    border: white 2px solid;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.formatList{
+    color: black;
+    width: 350px;
+    border: 0px;
+    font-size: 20px;
+    background-color: inherit;
+    border: white 2px solid;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.BtnRegister{
+    text-align: center;
+    width: 380px;
+    font-size: 25px;
+    color: white;
+    padding: 8px;
+    background-color: #4e5340;
+    border: 3px #4e5340 solid;
+    cursor: pointer;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+@media (max-width: 800px) {
+    .title{
+        margin-left: 40%;
+    }
+
+    .titleImg{
+        margin-left: 25%;
+    }
+
+    .subtitle{
+        margin-left:20%;
+        margin-right: 5%;
+    }
+
+    .platformTitle{
+        margin-left: 38%;
+    }
+    
+    .platformBtn{
+        margin-left: 15%;
+    }
+
+    .editionTitle{
+        margin-left: 42%;
+    }
+    
+
+    .poContent{
+        margin-left: 3%;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .imgPo{
+        width: 600px;
+        height: 400px;
+    }
+    
+    .poForm{
+        flex:2;
+        width: 100%;
+        margin-left: 15%;
+        margin-top: 5%; 
+        font-size: 20px;
+        color: white;   
+    }
+    
+    .form{
+        color: white;
+        width: 350px;
+        border: 0px;
+        font-size: 20px;
+        background-color: inherit;
+        border: white 2px solid;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+    
+    .choosenFormat{
+        width: 375px;
+        height: 50px; 
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+        border: white 2px solid;
+        background-color: inherit;
+    }
+    
+    .choosenFormatDetail{
+        background-color: rgb(61, 61, 61);
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+    .overlay a {
+        font-size: 20px
+    }
+
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.choosenType{
+    width: 375px;
+    height: 50px; 
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border: white 2px solid;
+    background-color: inherit;
+}
+
+.choosenTypeDetail{
+    background-color: rgb(61, 61, 61);
+}
+
+.overlay h1{
+    color:white;
+}
+
+.editionText{
+    font: 25px;
+    color:white;
+}
+
+.btnPO{
+    text-align: center;
+    width: 380px;
+    font-size: 25px;
+    color: black;
+    padding: 8px;
+    background-color: white;
+    border: 3px white ;
+    cursor: pointer;
+    margin-top: 25px;
+    padding: 10px;
+}
+

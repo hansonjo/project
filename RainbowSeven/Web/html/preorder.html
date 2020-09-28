@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/headerFooter.css">
+    <link rel="stylesheet" href="../css/preorder.css">
+    <title>Pre Order</title>
+</head>
+<body>
+    
+    <div class="header">
+        <a href="home.html">
+            <img src="../asset/Logo.png" width="300px" height="50px">
+        </a> 
+
+        <div class="dropdownWrapper"> 
+            <img src="../asset/dropdown.png" width="50px" height="50px">
+            <div class="dropdownContent">
+                <a href="home.html">Home</a>
+            </div>
+            <div class="dropdownContent">
+                <a href="quarantine.html">Quarantine</a>
+            </div>
+            <div class="dropdownContent">
+                <a href="operators.html">Operators</a>
+            </div>
+            <div class="dropdownContent">
+                <a href="map.html">Map</a>
+            </div>
+        </div>
+        
+        <a href="preorder.html">
+            <button class="btnPreorderHeader">
+                Preorder
+            </button>
+        </a>
+    </div>
+
+    <div class="content">
+        <br>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <h1>Fill this Form to Proceed</h1><br>
+                <input  class="form" type="text" id="myUsername" placeholder="Username"><br>
+                <input  class="form" type="text" id="myEmail" placeholder="Email"><br>
+                <input  class="form" type="password" id="myPassword" placeholder="Password"><br>
+                <input  class="form" type="text" id="myAddress" placeholder="Address"><br>
+                <input  class="form" type="text" id="myQuantity" placeholder="Number of Copies"><br>
+                <div>
+                    <label class="editionText">Choose Edition Type</label><br>
+                    <select class="choosenType" id="choosenType">
+                        <option value="Digital" class="choosenTypeDetail">Standard Edition</option>
+                        <option value="Physical" class="choosenTypeDetail">Quarantine Edition</option> 
+                    </select>  
+                </div>
+                <br><br>
+                <input class="userChck" type="checkbox" id="userAgree" name="userAgree" value="agreement">
+                <label for="userAgree">User Terms and Service agreement</label><br>
+                <input class="btnPO" type="submit" value="PRE ORDER" onclick="lastPO()"><br><br>
+            </div>
+        </div>
+        <div class="titleImg">
+            <img src="../asset/Logo2.png" width="350px" height="65px">
+        </div>
+        <div class="title">
+            Pre-Order Now
+        </div>
+        <div class="subtitle">
+            Available Quarantine 2020 on Xbox, PlayStation®, and PC. Pre-order now on the Ubipost Store.
+        </div>
+
+        <div class="platform">
+            <div class="platformTitle">
+                Choose Platform
+            </div>
+            <div class="platformBtn">
+                <button class="xboxBtn hover" id="xboxbox" onclick="change1()">Xbox</button>
+                <button class="playstationBtn hover" id="playstationbox" onclick="change2()">PlayStation®</button>
+                <button class="pcBtn hover" id="pcbox" onclick="change3()">PC - Ubipost Store</button>
+            </div>
+        </div>
+
+        <div>
+            <div class="editionTitle">
+                Get it Now
+            </div>
+            <br>
+            <div class="poContent">
+                <div class="poImg">
+                    <img class="imgPo" src="../asset/poBanner.jpg" width="100%" height="100%">
+                </div>
+                <div class="poForm">
+                    Input Location 
+                    <div>
+                        <input  class="form" type="text" id="myLocation" placeholder="Your Location">
+                    </div>
+                    Choose Format
+                    <div> 
+                        <select class="choosenFormat" id="choosenFormat">
+                            <option value="Digital" class="choosenFormatDetail">Digital</option>
+                            <option value="Physical" class="choosenFormatDetail">Physical</option> 
+                        </select>  
+                    </div>
+                    Platform
+                    <div class="location">
+                        <input  class="form" type="text" id="myPlatform" placeholder="Choose Platform" readonly>
+                    </div>
+                    <input class="BtnRegister" type="submit" value="PRE ORDER" onclick="poClicked()">
+                </div>
+            </div>
+            <br><br>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="textFooter">
+            @2020 copyright Ubipost
+        </div>
+    </div>
+</body>
+<script src="../js/preorder.js"></script>
+</html>

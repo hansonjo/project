@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/headerFooter.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <script type="text/javascript" src="../js/home.js"></script>
+    <title>Home</title>
+</head>
+<body onload="onClickSlide(0)">
+    
+    <div class="header">
+        <a href="home.html">
+            <img src="../asset/Logo.png" width="300px" height="50px">
+        </a> 
+
+        <div class="dropdownWrapper" style="position: relative; z-index: 1;"> 
+            <img src="../asset/dropdown.png" width="50px" height="50px">
+            <div class="dropdownContent">
+                <a href="home.html">Home</a>
+            </div>
+            <div class="dropdownContent">
+                <a href="quarantine.html">Quarantine</a>
+            </div>
+            <div class="dropdownContent">
+                <a href="operators.html">Operators</a>
+            </div>
+            <div class="dropdownContent">
+                <a href="map.html">Map</a>
+            </div>
+        </div>
+        
+        <a href="preorder.html">
+            <button class="btnPreorderHeader">
+                Preorder
+            </button>
+        </a>
+    </div>
+
+    <div class="content">
+        
+        <div class="slider-container">
+
+            <div class="image-slider">
+
+              <img src="../asset/slider-1.png" width="100%">
+
+            </div>
+          
+            <div class="image-slider">
+
+              <img src="../asset/slider-2.png" width="100%">
+
+            </div>
+          
+            <div class="image-slider">
+
+              <img src="../asset/slider-3.png" width="100%">
+
+            </div>
+          
+            <a class="prev" onclick="onClickPrev()">&#10096;</a>
+            <a class="next" onclick="onClickNext()">&#10097;</a>
+
+        </div>
+
+        <div class="news">
+            <div class="title">
+                <h1>LATEST NEWS</h1>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="../asset/slider-1.png" width="100%">
+                    <h3 style="text-align: center;">Rainbow Seven - Quarantine is Coming!</h2>
+                    <br>
+                    <p style="color: white; margin-bottom: 20px; margin-left: 20px; margin-right: 20px; text-align: justify;">
+                        We are finally going to release our new update: Operation Quarantine!
+                        Enjoy exclusive weapon skins, new maps, and new highly skilled agents!
+                        Update will be released later this month! PRE-ORDER now to get exclusive
+                        bonus content with limited skins and Operation:Quarantine Operators!
+                    </p>
+                </div>
+
+                <div class="column">
+                    <img src="../asset/slider-2.png" width="100%">
+                    <h3 style="text-align: center;">Update Sneak Peek</h3>
+                    <br>
+                    <p style="color: white; margin-bottom: 20px; margin-left: 20px; margin-right: 20px; text-align: justify;">
+                        This month's update is going to be one of the biggest update we'll ever
+                        have! There will not be just new features and/or agents, but there will
+                        be also new weapon skins and bugs/improvements of gameplay. Stay tuned
+                        for June's Big Update which's coming in no time!
+                    </p>
+                </div>
+
+                <div class="column">
+                    <img src="../asset/slider-3.png" width="100%">
+                    <h3 style="text-align: center;">Weapon Balance Changes</h3>
+                    <br>
+                    <p style="color: white; margin-bottom: 20px; margin-left: 20px; margin-right: 20px; text-align: justify;">
+                        We are balancing some weapons in order to make gameplay more fair and enjoyable.
+                        These balance changes include buffs and nerfs to some rifles and secondary weapons,
+                        including Desert Eagle, Assault Rifle, and many more!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="textFooter">
+            @2020 copyright Ubipost
+        </div>
+    </div>
+</body>
+</html>

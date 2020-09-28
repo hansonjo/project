@@ -1,0 +1,93 @@
+.content{
+    height: fit-content;
+    background-color: rgb(61, 61, 61);
+    color: black;
+    font-family: Verdana;
+}
+
+.mapsTitle{
+    padding-left: 40%;
+    font-size: 60px;
+    padding-top: 100px; 
+    color: #f1e724;
+}
+ 
+.Title{
+    background-color: rgb(61, 61, 61);
+    padding-left: 43%;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f1e724; 
+}
+
+.Title1{ 
+    background-color: rgb(61, 61, 61);
+    padding-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;  
+    color: #f1e724;  
+}
+
+
+.dustPhoto{ 
+    margin-left:  10%;
+}
+
+.basementPhoto{ 
+    margin-left: 5%;; 
+}
+
+.chaletPhoto{ 
+    margin-left: 5%;
+}
+
+.housePhoto{ 
+    margin-left: 5%;
+}
+
+.clubhousePhoto{ 
+    margin-left: 5%;
+}
+
+.square{
+    width: 50%; 
+    margin-left: 20%;
+    margin-top: 50px;
+    background-color: #c4bb1c;
+    padding: 30px 50px; 
+    border-radius: 10px;
+}
+
+
+@media (max-width: 800px) {
+    .square{
+        width: 76%; 
+        margin-left: 5%;
+        margin-top: 50px;
+        background-color: #c4bb1c;
+        padding: 30px 50px; 
+        border-radius: 10px;
+    }
+
+    .dustPhoto{  
+        margin-left:  -1%;
+    }
+    
+    .basementPhoto{ 
+        margin-left: -1%;; 
+    }
+    
+    .chaletPhoto{ 
+        margin-left: -1%;
+    }
+    
+    .housePhoto{ 
+        margin-left: -1%;
+    }
+    
+    .clubhousePhoto{ 
+        margin-left: -1%;
+    }
+}
